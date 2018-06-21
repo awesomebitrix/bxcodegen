@@ -2,6 +2,11 @@
 
 namespace marvin255\bxcodegen\tests;
 
-class BaseCase extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+/**
+ * Базовый класс для всех тестов.
+ */
+class BaseCase extends TestCase
 {
 }
