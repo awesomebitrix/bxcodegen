@@ -12,7 +12,7 @@
     "autoload": {
         "psr-4": {
             "marvin255\\bxcodegen\\": "src/",
-            "marvin255\\bxcodegen\\tests\\": "tests/"
+            "marvin255\\bxcodegen\\tests\\": "tests/src"
         }
     },
     "require-dev": {
