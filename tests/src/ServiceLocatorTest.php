@@ -3,10 +3,8 @@
 namespace marvin255\bxcodegen\tests;
 
 use marvin255\bxcodegen\ServiceLocator;
+use marvin255\bxcodegen\ServiceLocatorInterface;
 
-/**
- * Тесты для service locator.
- */
 class ServiceLocatorTest extends BaseCase
 {
     /**
@@ -14,7 +12,7 @@ class ServiceLocatorTest extends BaseCase
      */
     public function testResolve()
     {
-        $service = $this->getMockBuilder('\\marvin255\\bxcodegen\\ServiceLocatorInterface')
+        $service = $this->getMockBuilder(ServiceLocatorInterface::class)
             ->getMock();
         $serviceClass = get_class($service);
 
